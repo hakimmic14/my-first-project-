@@ -1,0 +1,60 @@
+
+body{
+    background-image: url("C:\Users\HAKIMI EPHRAM\Desktop\HTML-CSS\pg09.jpg");
+    
+
+}
+
+table, th, td{
+    border: 1px solid rgb(191, 45, 5);
+    width: 50px;
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+tr:hover{
+background-color: blue;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownbutton{
+    background-color: blue;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: rgb(113, 105, 106);
+    min-width: 150px;
+}
+.dropdown-menu a {
+    color:black;
+    passing: 11px 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a:hover {
+    background-color: white;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown:hover .dropdownbutton{
+    background-color: gray;
+
+}
+
+
+
+</style>
